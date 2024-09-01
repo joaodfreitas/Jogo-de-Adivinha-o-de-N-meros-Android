@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val buttonCheckGuess = findViewById<Button>(R.id.buttonCheckGuess)
         val textViewHint = findViewById<TextView>(R.id.textViewHint)
 
-        // Gerar um número aleatório ao iniciar o app
         randomNumber = Random.nextInt(1, 101)
 
         buttonCheckGuess.setOnClickListener {
